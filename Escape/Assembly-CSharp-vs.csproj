@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\NextScene.cs" />
      <Compile Include="Assets\Scripts\NextScene1.cs" />
+     <Compile Include="Assets\Scripts\NextScene3.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
