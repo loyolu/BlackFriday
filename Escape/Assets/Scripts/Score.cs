@@ -37,5 +37,13 @@ public class Score : MonoBehaviour {
 			score += 3;
 			Destroy (other.gameObject); 
 		}
+		if (other.gameObject.CompareTag("item") ){
+			score += 2;
+			Destroy (other.gameObject); 
+		}
+		if (other.gameObject.CompareTag("enemy") ){
+			score -= 2;
+			Destroy (other.gameObject); 
+		}
 	}
 }
