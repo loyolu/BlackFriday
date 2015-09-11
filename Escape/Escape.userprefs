@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NextScene1.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Score.cs">
     <Files>
-      <File FileName="Assets\NextScene1.cs" Line="4" Column="24" />
-      <File FileName="Assets\NextScene.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Utility\FollowTarget.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Score.cs" Line="19" Column="4" />
+      <File FileName="..\..\2DPlatformer\Assets\Scripts\GameScore.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
