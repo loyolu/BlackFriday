@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NextScene.cs" />
-     <Compile Include="Assets\NextScene1.cs" />
+     <Compile Include="Assets\Scripts\NextScene.cs" />
+     <Compile Include="Assets\Scripts\NextScene1.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
