@@ -17,8 +17,9 @@ public class Score : MonoBehaviour {
 
 			Application.LoadLevel("WinScene"); 
 		}
-		if (score <-20){
-			Application.LoadLevel(0) ;
+		if (score < -20) {
+			Application.LoadLevel (0);
+		}
 	}
 	// Update is called once per frame
 	void OnTriggerEnter (Collider other){
