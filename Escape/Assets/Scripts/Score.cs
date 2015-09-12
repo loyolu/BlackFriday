@@ -17,6 +17,8 @@ public class Score : MonoBehaviour {
 
 			Application.LoadLevel("WinScene"); 
 		}
+		if (score <-20){
+			Application.LoadLevel(0) ;
 	}
 	// Update is called once per frame
 	void OnTriggerEnter (Collider other){
@@ -33,17 +35,12 @@ public class Score : MonoBehaviour {
 			score += 1;
 			Destroy (other.gameObject); 
 		}
-		if (other.gameObject.CompareTag("money") ){
-			score += 3;
-			Destroy (other.gameObject); 
-		}
 		if (other.gameObject.CompareTag("item") ){
 			score += 2;
 			Destroy (other.gameObject); 
 		}
 		if (other.gameObject.CompareTag("enemy") ){
 			score -= 2;
-			Destroy (other.gameObject); 
-		}
+					}
 	}
 }
